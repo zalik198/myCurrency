@@ -27,7 +27,7 @@ class Network {
         task.resume()
     }
     
-    //paesing JSON
+    //parsing JSON
     func parseJSON(withData data: Data) -> CurrentCurrency? {
         let decoder = JSONDecoder()
         do {
